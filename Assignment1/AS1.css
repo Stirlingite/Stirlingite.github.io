@@ -1,0 +1,47 @@
+
+html, body {
+    height:100%;
+    margin:0;
+
+}
+
+#header{
+	width: 100%;
+	background: #0099FF;
+	height:100%, 40px;
+  text-transform: uppercase;
+  position: relative;
+
+
+}
+
+#wrapper{
+  display: flex;
+  height: 100%;
+}
+
+.navbar{
+  order: 1;
+  background:#0099FF;
+  padding:10px;
+  width: 250px;
+  font-size: 30px;
+  color: red;
+}
+
+.content {
+	order: 2;
+	width: 100%;
+	background:#1AA3FF;
+	padding:10px;
+
+}
+body{
+  padding: 20px;
+  background:  #003366;
+}
+
+#wrapper p{
+  color: white;
+}
+h1,h2,p{color: orange};
