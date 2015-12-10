@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>The Java Calculator!</title>
+		<script type="text/javascript" src="AssignmentScript.js"> </script>
+	</head>
+
+	<body>
+<body bgcolor="#4A7786">
+<font face="verdana">
+
+
+		<div>
+<p><h1> Welcome To My Calculator! </h1> </p>
+
+<body onload="Time()">
+
+<p>Just in case you have too much fun and lose track of time, here is the current time:</p>
+<div id="clock"></div>
+<br>
+
+
+
+
+<!-- Created a clear on inputs when focused upon -->
+	<input id="Numline" type="text" value="Enter 'One - Five'" onFocus="clearText(this)" onBlur="clearText(this)">
+	<input id="Numline2" type="text" value="Enter 'One - Five'" onFocus="clearText(this)" onBlur="clearText(this)">
+	<br>
+	<br>
+	<br>
+	<input type="button" onclick="add()" value="Sum (+)"/>
+	<input type="button" onclick="subt()" value="Difference (-)"/>
+	<br>
+	<input type="button" onclick="mult()" value="Product (*)"/>
+	<input type="button" onclick="div()" value="Quotient (/)"/>
+	
+
+
+
+		</div>
+
+	</body>
+
+</html>
